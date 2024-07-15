@@ -1,0 +1,13 @@
+source: src
+destination: public_html
+
+site:
+  title: The Vox Project
+  base_url: https://voxproject.dev
+  sitemap: sitemap.xml
+  data:
+    nav:
+      - [Home, "/"]
+      - [CalcVox, "/calcvox"]
+      - [Blog, "/blog"]
+      - [GitHub, "https://github.com/TheVoxProject"]
